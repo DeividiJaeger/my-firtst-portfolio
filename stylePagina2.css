@@ -1,0 +1,111 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    display: flex; /* Usar flexbox para alinhar elementos */
+    justify-content: space-between; /* Alinhar elementos à esquerda e à direita */
+}
+body, html{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/* Estilizando o link no canto esquerdo */
+.left-link {
+    text-decoration: none;
+    font-size: 125%;
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Estilizando os links no canto direito */
+.right-links {
+    display: flex; /* Usar flexbox para alinhar os links à direita */
+}
+
+/* Estilo para os links individuais */
+.right-links a {
+    color: #410077; /* Cor do link */
+    text-decoration: none; /* Remover sublinhado do link */
+    margin-left: 20px; /* Espaço entre os links */
+    border-bottom: 2px solid ; /* Adiciona uma linha transparente embaixo dos links */
+    transition: border-bottom-color 0.3s; /* Efeito de transição suave para a cor da linha */
+}
+.right-links a:hover {
+    border-bottom-color: #ffffff; /* Altera a cor da linha para branca quando o mouse está sobre o link */
+}
+#gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#gif img{
+    max-width: 100%;
+    max-height: 80vh;
+    border-radius: 30px;
+    height: 400px;
+    padding-bottom: 10px;
+}
+
+/* Estilizando a tabela */
+.table-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #2e0069;
+    background-color: #f2f2f2;
+}
+
+thead th {
+    background-color: #34044b;
+    color: #fff;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilizando linhas alternadas da tabela */
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.centralizando{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.list-container {
+    text-align: center; /* Alinhar o texto à esquerda */
+}
+
+.list-container ul {
+    list-style: none; /* Remover marcadores de lista */
+    padding-left: 0; /* Remover preenchimento padrão da lista */
+}
+
+.list-container li {
+    margin-bottom: 10px; /* Espaço entre os itens da lista */
+}
+
+
+hr { 
+    border-color: #675b9b;
+    border-style: solid;
+}

@@ -1,0 +1,101 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    display: flex; /* Usar flexbox para alinhar elementos */
+    justify-content: space-between; /* Alinhar elementos à esquerda e à direita */
+}
+
+/* Estilizando o link no canto esquerdo */
+.left-link {
+    font-size: 125%;
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Estilizando os links no canto direito */
+.right-links {
+    display: flex; /* Usar flexbox para alinhar os links à direita */
+}
+
+/* Estilo para os links individuais */
+.right-links a {
+    color: #340086; /* Cor do link */
+    text-decoration: none; /* Remover sublinhado do link */
+    margin-left: 20px; /* Espaço entre os links */
+    border-bottom: 2px solid ; /* Adiciona uma linha transparente embaixo dos links */
+    transition: border-bottom-color 0.3s; /* Efeito de transição suave para a cor da linha */
+}
+.right-links a:hover {
+    border-bottom-color: #ffffff; /* Altera a cor da linha para branca quando o mouse está sobre o link */
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 100px;
+    align-items: center;
+    height: 100vh;
+}
+
+hr{
+    border-color: #b1abab;
+    border-style: solid;
+}
+
+.text {
+    flex: 1;
+    text-align: left;
+}
+.image{
+    flex: 1;
+    text-align: right;
+}
+img{
+    border-radius: 30px;
+    width: 50%;
+}
+section h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+/* Remover estilos padrão da tag <a> (âncora/link) */
+a {
+    text-decoration: none; /* Remover sublinhado (decoração de texto) */
+    color: inherit; /* Herdar a cor do texto do pai (normalmente preto) */
+    cursor: pointer; /* Alterar o cursor para um ponteiro ao passar o mouse */
+    /* Você pode adicionar mais estilos aqui, como cor de fundo, borda, etc. */
+}
+
+
+/* Estilizando o botão de contato */
+.contact-button {
+    
+    background-color: #8c00ff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remover borda do botão */
+    border-radius: 5px; /* Arredondar cantos do botão */
+    font-size: 18px; /* Tamanho da fonte do botão */
+    cursor: pointer; /* Mostrar cursor de apontador ao passar por cima */
+    transition: background-color 0.3s; /* Efeito de transição suave para a cor de fundo */
+}
+
+.contact-button:hover {
+    
+    background-color: #ad00b3; /* Altera a cor de fundo do botão quando o mouse está sobre ele */
+}
+
+.deivi{
+    color: #7204cc;
+}
+
+h1{
+    text-shadow:2px 2px 4px #340086;
+}

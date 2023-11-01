@@ -1,0 +1,68 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; 
+    padding: 10px; /* Espaçamento interno */
+    display: flex; /* Usar flexbox para alinhar elementos */
+    justify-content: space-between; /* Alinhar elementos à esquerda e à direita */
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/* Estilizando o link no canto esquerdo */
+.left-link {
+    text-decoration: none;
+    font-size: 125%;
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Estilizando os links no canto direito */
+.right-links {
+    display: flex; /* Usar flexbox para alinhar os links à direita */
+}
+
+/* Estilo para os links individuais */
+.right-links a {
+    color: #410077; 
+    text-decoration: none; 
+    margin-left: 20px; 
+    border-bottom: 2px solid ;
+    transition: border-bottom-color 0.3s; /* Efeito de transição suave para a cor da linha */
+}
+.right-links a:hover {
+    border-bottom-color: #ffffff; /* Altera a cor da linha para branca quando o mouse está sobre o link */
+}
+hr{
+    border-color: #675b9b;
+    border-style: solid;
+}
+
+ table {
+            margin: 0 auto; /* Centraliza a tabela horizontalmente na página */
+            border-collapse: collapse; /* Remove espaços entre as células da tabela */
+            width: 80%; /* Define a largura da tabela como 80% da largura da página */
+        }
+
+        /* Estilize a tag <code> para parecer um terminal */
+code {
+    background-image: url(matrix.gif);
+    background-size: cover;
+    background-color: #000; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto clara */
+    font-family: monospace; /* Fonte monoespaçada (para igual espaçamento entre os caracteres) */
+    padding: 10px; /* Espaçamento interno */
+    display: block; /* Exibe como um bloco, ocupando toda a largura disponível */
+    border: 1px solid #333; /* Borda escura */
+    border-radius: 5px; /* Cantos arredondados */
+    white-space: pre-wrap; /* Mantém a quebra de linha e o espaçamento original */
+    margin: 0 auto;
+    max-width: 50%; /*Define a largura máxima */
+}
